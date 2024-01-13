@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,5 +7,57 @@
     <script src="app.js" defer></script>
     <title>Hangman</title>
   </head>
-  <body id="app"></body>
+  <body id="app">
+    <main class="main">
+      <div class="hangman-view">
+        <img
+          class="view-part view-gallows"
+          src="./assets/img/gallows.png"
+          alt="gallows picture"
+        />
+        <div class="view-full-body">
+          <img
+            class="view-part view-head"
+            src="./assets/img/head.png"
+            alt="body part picture"
+            data-body-part="1"
+          />
+          <img
+            class="view-part view-body"
+            src="./assets/img/body.png"
+            alt="body part picture"
+            data-body-part="2"
+          />
+          <img
+            class="view-part view-leg-left"
+            src="./assets/img/leg.png"
+            alt="body part picture"
+            data-body-part="3"
+          />
+          <img
+            class="view-part view-leg-right"
+            src="./assets/img/leg.png"
+            alt="body part picture"
+            data-body-part="4"
+          />
+          <img
+            class="view-part view-hand-left"
+            src="./assets/img/hand.png"
+            alt="body part picture"
+            data-body-part="5"
+          />
+          <img
+            class="view-part view-hand-right"
+            src="./assets/img/hand.png"
+            alt="body part picture"
+            data-body-part="6"
+          />
+        </div>
+      </div>
+      <div class="view-guess">
+        <div class="guess-keyboard"></div>
+      </div>
+    </main>
+    <div class="keyboard-button" data-code="KeyA">A</div>
+  </body>
 </html>

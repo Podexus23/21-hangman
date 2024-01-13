@@ -2,7 +2,7 @@
   "name": "hangman",
   "version": "1.0.0",
   "description": "task for RSS",
-  "main": "app.js",
+  "main": "./files/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
